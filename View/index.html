@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>URL Shortener</h1>
+    <div class="form-group">
+      <label for="longUrl">Long URL:</label>
+      <input type="text" id="longUrl" placeholder="Enter a long URL">
+    </div>
+    <button id="shortenBtn">Shorten URL</button>
+    <div class="form-group">
+      <label for="shortUrl">Short URL:</label>
+      <input type="text" id="shortUrl" placeholder="Shortened URL" readonly>
+    </div>
+    <div class="form-group">
+      <label for="shortUrlInput">Retrieve Long URL:</label>
+      <input type="text" id="shortUrlInput" placeholder="Enter a short URL">
+    </div>
+    <button id="retrieveBtn">Retrieve Long URL</button>
+    <div id="result"></div>
+  </div>
+  <script src="urlShortener.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
